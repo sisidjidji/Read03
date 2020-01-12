@@ -1,7 +1,20 @@
 # Read03
+
 ## Introduction:
 
 In this reading we are going to talk about version control and more spacily aout a distributed version control Git .
+
+## summary:
+### 1. What is a version control:
+### 2. GIT 
+   ### 2.1 Setting up a Git Repository
+   ### 2.2 cloning:
+   ### 2.3 Check File Status
+   ### 2.4 Tracking and Staging a New File
+   ### 2.5 Committing Changes
+   ### 2.6 Pushing Changes
+   ### 2.7 Remote Repositories
+
 
 ## 1. What is a version control:
 
@@ -17,15 +30,15 @@ Git stores data in a file system made up of snapshots. Each time you save a chan
 ## 2.1 Setting up a Git Repository
 
 To import an existing project or directory into Git we have to follow these steps:
-- Switch to the target project’s directory .Example:
+ Switch to the target project’s directory .Example:
 
    >$ cd test (cd = change directory)
 
-- Use the git init command
+Use the git init command
 
    >$ git init
 
-- To start tracking these repository files, perform an initial commit by typing the following:
+To start tracking these repository files, perform an initial commit by typing the following:
 
    >$ git add *.c
 
@@ -51,11 +64,11 @@ To determine the state of files, utilize the git status command:
 
 ## 2.4 Tracking and Staging a New File:
 
-- Single File: Track one file only by using the following format:
+Single File: Track one file only by using the following format:
 
    >$ git add filename
 
-- All Files: Track all files in a repository by using the following command:
+ All Files: Track all files in a repository by using the following command:
 
    > $ git add *
 
