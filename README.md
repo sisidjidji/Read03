@@ -19,58 +19,59 @@ Git stores data in a file system made up of snapshots. Each time you save a chan
 To import an existing project or directory into Git we have to follow these steps:
 - Switch to the target project’s directory .Example:
 
->$ cd test (cd = change directory)
+   >$ cd test (cd = change directory)
 
 - Use the git init command
->$ git init
+
+   >$ git init
 
 - To start tracking these repository files, perform an initial commit by typing the following:
 
->$ git add *.c
+   >$ git add *.c
 
->$ git add LICENSE
+   >$ git add LICENSE
         
->$ git commit -m “any message here”
+   >$ git commit -m “any message here”
 
 ## 2.2 cloning:
 
 You can also create a copy of an existing Git repository from a particular server by using the clone command with a repository’s URL: 
 
-> $ git clone https://github.com/test\
+   > $ git clone https://github.com/test\
 
 Or we can clone a repository into a directory with another name of your choosing, using:
 
-> $ git clone https://github.com/test mydirectory
+   > $ git clone https://github.com/test mydirectory
 
 ## 2.3 Check File Status:
 
 To determine the state of files, utilize the git status command:
 
->$ git status
+   >$ git status
 
 ## 2.4 Tracking and Staging a New File:
 
 - Single File: Track one file only by using the following format:
 
->$ git add filename
+   >$ git add filename
 
 - All Files: Track all files in a repository by using the following command:
 
-> $ git add *
+   > $ git add *
 
 ## 2.5 Committing Changes:
 
 After staging one or multiple files, you should commit the changes and record what you did within the commit message:
 
->$ git commit -m “made change x,y,z”
+   >$ git commit -m “made change x,y,z”
 
->$ git commit -a
+   >$ git commit -a
 
 ## 2.6 Pushing Changes:
 
 push changes to a remote repository using the push message:
 
-> $ git push origin master
+   > $ git push origin master
 
 ## 2.7 Remote Repositories:
 
@@ -80,5 +81,5 @@ By using git **remote -v**, you can view all the remote URLs next to their corre
 
 To create a new remote Git repository with a short name, use the following format:
 
->git remote add shortname url
+   >git remote add shortname url
 
