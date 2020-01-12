@@ -7,13 +7,13 @@ In this reading we are going to talk about version control and more spacily aout
 ## summary:
  1. What is a version control:
  2. GIT 
-   2.1 Setting up a Git Repository
-   2.2 cloning:
-   2.3 Check File Status
-   2.4 Tracking and Staging a New File
-   2.5 Committing Changes
-   2.6 Pushing Changes
-   2.7 Remote Repositories
+ - 2.1 Setting up a Git Repository
+ - 2.2 cloning:
+ - 2.3 Check File Status
+ - 2.4 Tracking and Staging a New File
+ - 2.5 Committing Changes
+ - 2.6 Pushing Changes
+ - 2.7 Remote Repositories
 
 
 ## 1. What is a version control:
